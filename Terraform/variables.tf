@@ -3,7 +3,7 @@
 variable "s3-web-link" {
   description = "Enlace del bucket S3 a la web comprimida"
   type = string
-  default = "https://packed-website.s3.amazonaws.com/website.zip"
+  default = "https://adrian-nginx-bucket.s3.eu-central-1.amazonaws.com/website.zip"
 }
 variable "s3-file-name" {
   description = "El nombre del archivo zip"
